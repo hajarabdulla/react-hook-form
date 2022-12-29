@@ -18,6 +18,12 @@ const index = () => {
         >
           Login
         </NavLink>
+        <NavLink
+          className={({ isActive }) => (isActive ? "active" : "")}
+          to="/add-product"
+        >
+          Add Product
+        </NavLink>
       </ul>
     </Nav>
   );

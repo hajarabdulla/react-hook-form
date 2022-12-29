@@ -15,3 +15,10 @@ export const Button = styled.button`
     color: white;
   }
 `;
+
+//   ${(props) =>
+//     props.primary &&
+//     css`
+//       background: red;
+//       white: yellow;
+//     `}
