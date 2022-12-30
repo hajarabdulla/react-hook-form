@@ -1,6 +1,7 @@
 import { Button } from "../../components/Button";
 import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
+import Products from "../../components/products";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Button as="a" href="/login" buttonColor="black">
         Click me to go to Login page
       </Button>
+      <Products />
     </HelmetProvider>
   );
 };

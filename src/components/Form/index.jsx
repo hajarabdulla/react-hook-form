@@ -9,7 +9,9 @@ const Form = () => {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm({ resolver: yupResolver(loginFormSchema) });
+  } = useForm({
+    resolver: yupResolver(loginFormSchema),
+  });
 
   const formSubmit = (data) => {
     console.log(data);
