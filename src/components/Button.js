@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Button = styled.button`
   background: ${(props) => props.buttonColor || "white"};
@@ -17,6 +17,7 @@ export const Button = styled.button`
   }
 `;
 
+// import styled, { css } from "styled-components";
 //   ${(props) =>
 //     props.primary &&
 //     css`

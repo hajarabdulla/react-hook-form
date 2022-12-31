@@ -7,9 +7,10 @@ import {
   Th,
   Td,
   TableContainer,
+  FormControl,
+  Input,
+  Spinner,
 } from "@chakra-ui/react";
-import { FormControl, Input } from "@chakra-ui/react";
-import { Spinner } from "@chakra-ui/react";
 import axios from "axios";
 
 const Products = () => {
