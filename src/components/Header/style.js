@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   display: flex;
   background-color: darkslategray;
-  padding: 20px;
 
   & ul {
     display: flex;
@@ -14,10 +13,11 @@ export const Nav = styled.nav`
   }
 
   & a {
-    list-style: none;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
+      list-style: none;
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      padding: 20px;
   }
 
   & .active {

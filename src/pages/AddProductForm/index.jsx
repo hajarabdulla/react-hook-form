@@ -25,7 +25,7 @@ function AddProductForm() {
       </Helmet>
 
       <ProductFrom>
-        <h2>Add Product Form</h2>
+      <h1>Add Product Form</h1>
 
         <Formik
           initialValues={{

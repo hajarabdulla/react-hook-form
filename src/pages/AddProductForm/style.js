@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const ProductFrom = styled.div`
-  & form {
     width: 54%;
+    margin: 0 auto;
+
+  & form {
     display: flex;
     flex-direction: column;
     gap: 10px;
