@@ -14,9 +14,10 @@ const FormControl = styled.form`
     padding: 10px;
     margin: 0 15px 10px;
     font-size: 16px;
+    border: 1px dashed black;
 
     &: hover {
-      background: palevioletred;
+      border: 2px dashed black;
     }
   }
 
@@ -30,8 +31,8 @@ const FormControl = styled.form`
     margin: 0 auto;
 
     &: hover {
-      background: white;
-      color: black;
+      background: black;
+      color: white;
     }
   }
 `;

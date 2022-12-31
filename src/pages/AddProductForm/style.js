@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const ProductFrom = styled.div`
   & form {
-    /* margin: auto;*/
     width: 54%;
     display: flex;
     flex-direction: column;
@@ -11,7 +10,6 @@ export const ProductFrom = styled.div`
 
   & input,
   select {
-    /* width: 100%; */
     padding: 10px;
     border: 2px dashed darkslategray;
     font-size: 18px;
@@ -19,7 +17,6 @@ export const ProductFrom = styled.div`
 
   & button {
     padding: 10px;
-    /*width: 100px;*/
     background: darkslategray;
     color: #fff;
     font-size: 18px;
